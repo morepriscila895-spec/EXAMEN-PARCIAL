@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro|INICIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gravitas+One&family=Henny+Penny&family=Knewave&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <style>
+        body {
+            font-family: "Caveat Brush", cursive;
+            font-weight: 400;
+            font-style: italic;
+            color: wheat;
+            margin: 0;
+        }
+
+        body {
+            background-image: url(img/fondo1.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Formulario de inscripcion</h1>
+    <p>Completa tus datos para mejor atencion.</p>
+    <a href="index.html" style="text-decoration: none;
+     background-color: #4ad8d4a5;
+     color: black;
+     border-radius: 15px;
+     padding:2px 5px;">Volver al inicio</a>
+    <br><br><br>
+
+    <main>
+        <form action="">
+            <fieldset>
+                <legend><b>Complete inscripcion</b></legend>
+
+                <label> Nombre y apellido</label>
+                <br>
+                <input type="text" placeholder="Ingrese su nombre">
+                <br><br>
+
+                <label>Que te gusto mas</label>
+                <br>
+                <select>
+                    <option value="Rocket League">Aretes</option>
+                    <option value="Dota2">Pulsera</option>
+                    <option value="streetfightersV">Collares</option>
+                </select>
+                <br><br>
+                <label>Envianos tus favoritos</label><br>
+                <input type="file" accept="image/*">
+
+            </fieldset>
+    </main>
+
+
+    <main>
+        <form action=""></form>
+        <fieldset>
+            <legend><b>¿Te gustaria realizar un envio?</b></legend>
+
+            <label> Nombre del rcibidor:</label>
+            <br>
+            <input type="text" placeholder="Ejm. Danna Paz">
+            <br><br>
+
+            <label>Correo electronico:</label>
+
+            <br>
+            <input type="text" placeholder="Dannasof@gmail.com">
+            <br><br>
+            <label> Fecha de entrega</label>
+            <br>
+            <input type="date"><br><br>
+
+            <label>Tipo de entrega</label>
+            <br>
+            <input type="radio" name="entrega value=" Domicilio">
+            <label>Domicilio</label>
+            <input type="radio" name="entrega" value="Recoger" checked="">
+            <label>Recojo</label>
+        </fieldset>
+
+        <br>
+        <label>Dejanos un comentario:</label>
+        <br>
+        <textarea name="mensaje" rows="4" cols="50" placeholder="Como te parecio nuestro productos"></textarea>
+        <br>
+        <input type="checkbox" id="terms" name="terminos" required="">
+        <label for="terms">Acepto el uso de mis datos personales.</label>
+        <br>
+        <button type="submit" style="background-color: #53b63f; 
+                    color: white; 
+                    border-radius: 10px; 
+                    border-color: #53b63f;
+                    padding: 10px 25px; 
+                    text-align:center; 
+                    display: inline-block; 
+                    font-size: 14px; 
+                    cursor: pointer;">
+            <i class="bi bi-rocket-takeoff"></i> Enviar Inscripción y compra</button>
+        <button type="reset" style="background-color: #fc6969; 
+                    color: white; 
+                    border-radius: 10px; 
+                    border-color: #fc6969;
+                    padding: 10px 25px; 
+                    text-align:center; 
+                    display: inline-block; 
+                    font-size: 14px; 
+                    cursor: pointer;">
+            <i class="bi bi-trash"></i> Borrar todo</button>
+        </form>
+
+    </main>
+
+</body>
+
+</html>
